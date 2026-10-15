@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/apollo",
+  "title": "Apollo",
+  "description": "Apollo.io MCP — company and people data via api.apollo.io, the caller's OWN Apollo account (fleet…",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/apollo",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-apollo",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/apollo/mcp"
+    }
+  ]
+}

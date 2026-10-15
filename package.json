@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-apollo",
+  "version": "0.1.0",
+  "description": "Apollo.io MCP — company and people data via api.apollo.io, the caller's OWN Apollo account (fleet #3084, GTM wave: docs/gtm-wave-2026-10-08.md D4).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-apollo": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "apollo"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-apollo.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-6106d7be20189f0cc4e381c24a4cca3349576cc8f94e33a1ade88def8e4fa16a",
+    "sourceCommit": "8dbe088fb6f9d2c88f934173742329b4e20a67d6"
+  }
+}
