@@ -10,7 +10,7 @@ import pack from './index.js';
 
 
 const server = new Server(
-  { name: '@pipeworx/mcp-apollo', version: '0.1.0' },
+  { name: '@pipeworx/mcp-apollo', version: '0.1.1' },
   { capabilities: { tools: {} } },
 );
 
